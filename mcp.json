@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "ethmumbai-anti-mev-dex-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Arbitrum / Ethereum L2",
+        "PROJECT_TICKER": "EMDEX"
+      },
+      "tools": [
+        {
+          "name": "verify_emdex_invariants",
+          "description": "Verifies deterministic invariants for ETHMumbai Anti-MEV DEX AI on Arbitrum / Ethereum L2."
+        },
+        {
+          "name": "execute_emdex_action",
+          "description": "Executes authenticated DeFi state transition."
+        }
+      ]
+    }
+  }
+}

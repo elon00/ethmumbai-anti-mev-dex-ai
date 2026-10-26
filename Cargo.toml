@@ -1,0 +1,9 @@
+[package]
+name = "ethmumbai-anti-mev-dex-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Commit-reveal threshold encrypted fair DEX"
+license = "MIT"
+
+[dependencies]
