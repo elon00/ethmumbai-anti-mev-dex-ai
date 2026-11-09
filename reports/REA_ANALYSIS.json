@@ -1,7 +1,7 @@
 {
   "engine": "REA_Reverse_Engineer_Anything",
   "status": "STRUCTURE_RECONSTRUCTED",
-  "analyzed_files": 13,
+  "analyzed_files": 15,
   "manifest": {
     "ARCHITECTURE_BOOK.md": {
       "bytes": 1282
@@ -24,6 +24,12 @@
     "contracts\\EMDEXProtocol.sol": {
       "bytes": 788
     },
+    "reports\\RAVEN_RSI_DIAGNOSTIC.json": {
+      "bytes": 340
+    },
+    "reports\\REA_ANALYSIS.json": {
+      "bytes": 946
+    },
     "scripts\\rea_inspector.py": {
       "bytes": 1485
     },
@@ -43,5 +49,5 @@
       "bytes": 531
     }
   },
-  "timestamp": 1793996242
+  "timestamp": 1794223186
 }
